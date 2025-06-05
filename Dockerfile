@@ -1,7 +1,7 @@
-FROM python:3.11-slim-wrongtag
+FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY bad_script.py .
+COPY app.ру .
 
-CMD ["python", "app.py"]
+CMD ["python", "app.ру"]
